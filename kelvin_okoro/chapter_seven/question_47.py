@@ -9,10 +9,10 @@ my_list = [1, 2, 3, 4, 5, 7]
 
 
 def minimum(my_method):
-    min_num = my_list[0]
+    min_num = my_method[0]
     for num in range(len(my_method)):
-        if my_list[num] < min_num:
-            min_num = my_list[num]
+        if my_method[num] < min_num:
+            min_num = my_method[num]
     return min_num
 
 
@@ -20,9 +20,12 @@ print(minimum(my_list))
 
 
 def maximum(my_method):
-    max_num = my_list[0]
+    max_num = my_method[0]
     for num in range(len(my_method)):
-        if my_list[num] < max_num:
-            max_num = my_list[num]
+        if my_list[num] > max_num:
+            max_num = my_method[num]
     return max_num
+
+
 print(maximum(my_list))
+
