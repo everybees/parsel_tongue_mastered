@@ -8,4 +8,3 @@ while(True):
         break
     else:
         print(f"the number {number} is not a perfect square, try another number")
-    
