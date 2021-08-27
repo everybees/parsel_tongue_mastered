@@ -1,12 +1,18 @@
-def find_min_max(array):
+def find_min(array):
     minimum = array[0]
-    maximum = array[0]
     for x in range(len(array)):
         if minimum < array[x]:
             minimum = array[x]
+    print('minimum = ', minimum)
+
+
+def find_max(array):
+    maximum = array[0]
+    for x in range(len(array)):
         if maximum > array[x]:
             maximum = array[x]
-    print('minimum = ', minimum, 'maximum = ', maximum)
+    print('maximum = ', maximum)
 
 
-find_min_max([5, 10, 100, 49, 34])
+find_min([5, 10, 100, 49, 2])
+find_max([5, 10, 100, 49, 2])
