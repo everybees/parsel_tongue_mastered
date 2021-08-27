@@ -17,7 +17,6 @@ def is_perfect_square(is_square):
 
 
 while not is_perfect_square(is_square):
-    # print(str(is_square))
     is_square = input("That was not a perfect square, enter another number: ")
 else:
     print(str(is_square) + " was a perfect square well done!")
