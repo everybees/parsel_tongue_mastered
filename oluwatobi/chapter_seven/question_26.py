@@ -1,2 +1,2 @@
-number = [int(num) for num in range(1, 21)]
+number = [num for num in range(1, 21)]
 print(number)
