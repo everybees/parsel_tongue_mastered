@@ -1,34 +1,20 @@
 def minimum_value(value):
-    minimum = 0;
-    temp = 0;
+    minimum = value[0]
 
-    for _ in value:
-        if value[0] > minimum:
-           temp = value[0]
-
-        if _ < temp:
-            minimum = _
-        else:
-            minimum = temp
-
+    for number in value:
+        if number < minimum:
+            minimum = number
     return minimum
 
 
 
 
 def maximum_value(value):
-    maximum = 0;
-    temp = 0;
+    maximum = value[0];
 
-    for _ in value:
-        if value[0] > maximum:
-           temp = value[0]
-
-        if _ > temp:
-            maximum = _
-        else:
-            maximum = temp
-
+    for number in value:
+        if number > maximum:
+            maximum = number
     return maximum
 
 
